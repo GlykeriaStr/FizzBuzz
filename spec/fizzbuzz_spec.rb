@@ -16,4 +16,8 @@ describe 'fizzbuzz' do
   it 'returns 7 when passed 7' do
     expect(fizzbuzz(7)).to eq 7
   end
+
+  it 'returns "Try again" when passed (!Integer)' do
+    expect(fizzbuzz(!Integer)).to eq "Try again"
+  end
 end

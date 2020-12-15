@@ -5,6 +5,8 @@ def fizzbuzz(number)
     'buzz'
   elsif number == 15
     'fizzbuzz'
+  elsif !number.is_a?(Integer)
+    "Try again"
   else
     number
   end
